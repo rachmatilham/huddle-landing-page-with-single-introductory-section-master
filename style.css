@@ -103,7 +103,6 @@ footer.icon svg:hover {
 }
 
 .attribution {
-  display: inline-block;
   width: 100%;
   background-color: white;
   font-size: 11px;
@@ -119,11 +118,11 @@ footer.icon svg:hover {
   body {
     background-image: url(./images/bg-desktop.svg);
     background-size: auto;
+    position: relative;
   }
 
   main {
     padding: 55px 73px 0;
-    position: relative;
   }
 
   header .logo {
@@ -182,7 +181,7 @@ footer.icon svg:hover {
   }
 
   .attribution {
-    position: absolute;
+    position: fixed;
     bottom: 0;
   }
 }
