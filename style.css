@@ -102,6 +102,16 @@ footer.icon svg:hover {
   fill: var(--soft-magenta);
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: 0px none;
+  padding: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+}
+
 .attribution {
   width: 100%;
   background-color: white;
